@@ -8,5 +8,5 @@ authorities:
       latitude: 13.225
       longitude: 144.597
   org_id: 1eb7c9ac-e777-4777-a777-a74db447ecc7
-  public_api: http://52.52.212.1:3001
-  cursor_url: http://guamsafeplaces.s3-website-us-west-1.amazonaws.com/cursor.json
+  public_api: https://isapi-safeplaces.guam.gov
+  cursor_url: https://guamsafeplaces.s3-website-us-west-1.amazonaws.com/cursor.json
