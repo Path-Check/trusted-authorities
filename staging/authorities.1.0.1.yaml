@@ -54,3 +54,14 @@ authorities:
     org_id: 1502ae6c-385e-4afb-99fe-c3fc566b40fb
     public_api: https://ingest.haiti.safeplaces.cloud
     cursor_url: https://cdn.safeplaces.cloud/002haiti/cursor.json
+  - name: Texas Christian University
+    bounds:
+      ne:
+        latitude: 32.7164
+        longitude: -97.3525
+      sw:
+        latitude: 32.6963
+        longitude: -97.3751
+    org_id: d40893ae-09f1-424d-a2a1-1c7c260554d7
+    public_api: https://ingest.tcu.backend.safeplaces.cloud
+    cursor_url: https://cdn.safeplaces.cloud/003tcu/cursor.json
