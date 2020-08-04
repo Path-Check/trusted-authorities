@@ -1,0 +1,12 @@
+authorities:
+  - name: Testing (BugCrowd)
+    bounds:
+      ne:
+        latitude: 90.01
+        longitude: 135.01
+      sw:
+        latitude: 90
+        longitude: 135
+    org_id: 1eb7c9ac-e417-4845-a7e3-a74db447ecc7
+    public_api: https://ingest.bugcrowd.safeplaces.extremesolution.com
+    cursor_url: https://storage.googleapis.com/safeplaces-master/bugcrowd/cursor.json
