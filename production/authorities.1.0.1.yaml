@@ -43,4 +43,3 @@ authorities:
     org_id: d40893ae-09f1-424d-a2a1-1c7c260554d7
     public_api: https://ingest.tcu.backend.safeplaces.cloud
     cursor_url: https://cdn.safeplaces.cloud/003tcu/cursor.json
-    
