@@ -1,4 +1,15 @@
 authorities:
+  - name: Southern Methodist University
+    bounds:
+      ne:
+        latitude: 32.84519188749405
+        longitude: -96.77456683457996
+      sw:
+        latitude: 32.840775057560634
+        longitude: -96.7949301654212
+    org_id: cbc199b8-f9f1-47f1-a4bc-cd86cb629131
+    public_api: https://ingest.smu.backend.safeplaces.cloud    
+    cursor_url: https://cdn.safeplaces.cloud/004smu/cursor.json
   - name: Teton County, WY Health Department
     bounds:
       ne:
@@ -32,3 +43,4 @@ authorities:
     org_id: d40893ae-09f1-424d-a2a1-1c7c260554d7
     public_api: https://ingest.tcu.backend.safeplaces.cloud
     cursor_url: https://cdn.safeplaces.cloud/003tcu/cursor.json
+    
