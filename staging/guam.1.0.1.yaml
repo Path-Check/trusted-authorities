@@ -1,12 +1,13 @@
 authorities:
-- name: Guam Department of Public Health Authority
-  bounds:
-    ne:
-      latitude: 13.664
-      longitude: 144.977
-    sw:
-      latitude: 13.225
-      longitude: 144.597
-  org_id: 1eb7c9ac-e777-4777-a777-a74db447ecc7
-  public_api: https://isapi-safeplaces.guam.gov
-  cursor_url: https://guamsafeplaces.s3-website-us-west-1.amazonaws.com/cursor.json
+  - name: Guam Department of Public Health Authority
+    bounds:
+      ne:
+        latitude: 13.664
+        longitude: 144.977
+      sw:
+        latitude: 13.225
+        longitude: 144.597
+    org_id: 1eb7c9ac-e777-4777-a777-a74db447ecc7
+    public_api: https://isapi-safeplaces.guam.gov
+    cursor_url: https://guamsafeplaces.s3-website-us-west-1.amazonaws.com/cursor.json
+    foo: bar
