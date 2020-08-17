@@ -18,4 +18,4 @@ jobs:
         uses: ./.github/actions/validate
         id: validate-stagingg
         with:
-          dir: "staging"
+          root: "staging"
