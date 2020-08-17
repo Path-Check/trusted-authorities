@@ -1,0 +1,25 @@
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  validate_files_job:
+    runs-on: ubuntu-latest
+    name: Validate Yaml Files
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Validate Production Yamls
+        uses: ./.github/actions/validate
+        id: validate-prod
+        with:
+          root: "production"
+
+      - name: Validate Staging Yamls
+        uses: ./.github/actions/validate
+        id: validate-stagingg
+        with:
+          root: "staging"
