@@ -1,0 +1,12 @@
+name: "Validate"
+description: "Validate a Healthcare Authority Yaml File"
+inputs:
+  file:
+    description: "Relative file path under the repository of a HA yaml file to validate"
+    required: true
+runs:
+  using: "node12"
+  main: "dist/index.js"
+branding:
+  icon: "check"
+  color: purple
