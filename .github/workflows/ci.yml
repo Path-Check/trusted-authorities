@@ -12,7 +12,7 @@ jobs:
         uses: ./.github/actions/validate
         id: validate-prod
         with:
-          root: "./production"
+          root: "production"
       # - name: Validate Staging Yamls
       #   uses: ./.github/actions/validate
       #   id: validate-prod

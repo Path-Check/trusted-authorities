@@ -24,8 +24,8 @@ const Response = Joi.object({
     authorities: HaList.required(),
 }).required();
 
-const validateYaml = async function (yamlString) {
-    const { error, value } = await Response.validate(Yaml.safeLoad(yamlString));
+const validateYaml = function (yamlString) {
+    const { error, value } = Response.validate(Yaml.safeLoad(yamlString));
     if (error) throw error;
     return value;
 }
