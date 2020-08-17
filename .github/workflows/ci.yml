@@ -13,8 +13,9 @@ jobs:
         id: validate-prod
         with:
           root: "production"
-      # - name: Validate Staging Yamls
-      #   uses: ./.github/actions/validate
-      #   id: validate-prod
-      #   with:
-      #     dir: "./staging/"
+
+      - name: Validate Staging Yamls
+        uses: ./.github/actions/validate
+        id: validate-stagingg
+        with:
+          dir: "staging"
