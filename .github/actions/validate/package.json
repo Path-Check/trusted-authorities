@@ -6,6 +6,7 @@
     "@actions/github": "^4.0.0",
     "@hapi/joi": "^17.1.1",
     "command-line-args": "^5.1.1",
+    "glob": "^7.1.6",
     "js-yaml": "^3.14.0"
   }
 }

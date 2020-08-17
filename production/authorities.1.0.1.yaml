@@ -6,7 +6,8 @@ authorities:
         longitude: -109.1243588328588
       sw:
         latitude: 43.06836443689707
-     org_id: 37a17a25-4acd-4741-a77d-db6b4179b7e3
+        longitude: -112.55743420962895
+    org_id: 37a17a25-4acd-4741-a77d-db6b4179b7e3
     public_api: https://ingest.tetoncounty.safeplaces.cloud
     cursor_url: https://cdn.safeplaces.cloud/001teton/cursor.json
   - name: MSPP/IHSI
