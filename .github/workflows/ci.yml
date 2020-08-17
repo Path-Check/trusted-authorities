@@ -1,9 +1,9 @@
 on: [push]
 
 jobs:
-  hello_world_job:
+  validate_files_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: Validate Yaml Files
     steps:
       # To use this repository's private action,
       # you must check out the repository
