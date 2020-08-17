@@ -25545,7 +25545,7 @@ try {
     const root = core.getInput('root');
     console.log(`Validating files in directory '${root}'`);
 
-    const files = glob.sync(`${root}/*.yaml|${root}/*.yml`, {});
+    const files = glob.sync(`*.yaml|*.yml`, { root });
     console.log('files: ', files)
     files.forEach(f => {
         console.log(`Validating file: ${f}`);
