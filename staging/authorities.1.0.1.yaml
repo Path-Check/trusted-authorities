@@ -8,8 +8,8 @@ authorities:
         latitude: 90
         longitude: 135
     org_id: 1eb7c9ac-e417-4845-a7e3-a74db447ecc7
-    public_api: https://api.dev.safeplaces.extremesolution.com
-    cursor_url: https://storage.googleapis.com/ssafeplaces-dev/cursor.json
+    public_api: https://ingest.dev.safeplaces.extremesolution.com
+    cursor_url: https://storage.googleapis.com/safeplaces-master/dev/cursor.json
   - name: Testing (staging)
     bounds:
       ne:
@@ -19,8 +19,8 @@ authorities:
         latitude: 90
         longitude: 135
     org_id: 1eb7c9ac-e417-4845-a7e3-a74db447ecc7
-    public_api: https://api.staging.safeplaces.extremesolution.com
-    cursor_url: https://storage.googleapis.com/ssafeplaces-staging/cursor.json
+    public_api: https://ingest.staging.safeplaces.extremesolution.com
+    cursor_url: https://storage.googleapis.com/safeplaces-master/staging/cursor.json
   - name: Testing (demo)
     bounds:
       ne:
@@ -30,8 +30,8 @@ authorities:
         latitude: 90
         longitude: 135
     org_id: 1eb7c9ac-e417-4845-a7e3-a74db447ecc7
-    public_api: https://api.demo.safeplaces.extremesolution.com
-    cursor_url: https://storage.googleapis.com/ssafeplaces-demo/cursor.json
+    public_api: https://ingest.demo.safeplaces.extremesolution.com
+    cursor_url: https://storage.googleapis.com/safeplaces-master/demo/cursor.json
   - name: (Production:) Teton County, WY Health Department
     bounds:
       ne:
