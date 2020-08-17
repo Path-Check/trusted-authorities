@@ -14,6 +14,7 @@ try {
             console.log('Glob error reading files!');
             core.setFailed(er.message)
         }
+        console.log('files: ', { files })
         files.forEach(f => {
             console.log(`Validating file: ${f}`);
             fs.readFile(file, 'utf8', (err, data) => {
