@@ -65,3 +65,14 @@ authorities:
     org_id: d40893ae-09f1-424d-a2a1-1c7c260554d7
     public_api: https://ingest.tcu.backend.safeplaces.cloud
     cursor_url: https://cdn.safeplaces.cloud/003tcu/cursor.json
+  - name: Vassar College
+    bounds:
+      ne:
+        latitude: 41.6884820968416
+        longitude: -73.88384133457912
+      sw:
+        latitude: 41.68438783802375
+        longitude: -73.90420466542037
+    org_id: 923818dd-3cd6-4e7f-b2df-c4410b281912
+    public_api: https://ingest.vassar.backend.safeplaces.cloud
+    cursor_url: https://cdn.safeplaces.cloud/005vassar/cursor.json
