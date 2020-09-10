@@ -30,7 +30,7 @@ authorities:
         latitude: 18.03474050132708
         longitude: -75.78073116143524
     org_id: 1502ae6c-385e-4afb-99fe-c3fc566b40fb
-    public_api: https://ingest.haiti.safeplaces.cloud
+    public_api: https://ingest.haiti.backend.safeplaces.cloud
     cursor_url: https://cdn.safeplaces.cloud/002haiti/cursor.json
   - name: Texas Christian University
     bounds:
