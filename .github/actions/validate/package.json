@@ -2,7 +2,7 @@
   "name": "trusted-authorities-validation",
   "description": "Validation script for trusted authorities yaml files",
   "dependencies": {
-    "@actions/core": "^1.2.4",
+    "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",
     "@hapi/joi": "^17.1.1",
     "command-line-args": "^5.1.1",
