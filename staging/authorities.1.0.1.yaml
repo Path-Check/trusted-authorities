@@ -76,3 +76,15 @@ authorities:
     org_id: 923818dd-3cd6-4e7f-b2df-c4410b281912
     public_api: https://ingest.vassar.backend.safeplaces.cloud
     cursor_url: https://cdn.safeplaces.cloud/005vassar/cursor.json
+   authorities:
+  - name: St. Lucia
+  bounds:
+   ne:
+    latitude: 14.19559744426563
+    longitude: -60.06138097071985
+   sw:
+    latitude: 13.599757853135486
+    longitude: -61.87604392840002
+   org_id: 2f7cd385-8d9d-494b-8223-8e4d40446b17
+   public_api: https://ingest.stlucia.backend.safeplaces.cloud/
+   cursor_url: https://cdn.safeplaces.cloud/006stlucia/cursor.json
